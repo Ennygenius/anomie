@@ -1,0 +1,68 @@
+.section{
+    margin: 20px;
+}
+
+.sect1{
+    font-family: inter;
+    /* font-weight: 600; */
+    font-size: 32px;
+    letter-spacing: 7%;
+}
+.sect1 h3{
+    padding: 20px 5px;
+}
+.sect2{
+    display: flex;
+}
+.play{
+    position: absolute;
+width: 700px;
+height: 432px;
+left: 135px;
+top: 176px;
+background: #0F0F0F;
+border-radius: 12px;
+margin-top: 20px;
+}
+.youtube{
+    position: absolute;
+width: 97px;
+height: 62px;
+left: 436px;
+top: 372px;
+background: rgba(55, 55, 55, 0.8);
+border-radius: 16px;
+}
+.pause{
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 467px;
+top: 385px;
+background: #FFFFFF;
+transform: rotate(80deg);
+}
+
+.sectImg{
+    position: absolute;
+    left: 65%;
+   
+}
+.sectImg img{
+    padding-left: 15px;
+}
+
+.last-section{
+        display: flex;
+        position: absolute;
+        top: 79%;
+        bottom: 0;
+        margin-left: 10%;
+}
+
+.img {
+    margin-right: 10px;
+}
+.desc{
+    display: block;
+}
